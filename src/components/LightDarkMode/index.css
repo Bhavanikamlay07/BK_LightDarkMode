@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dark-container {
+  background-color: #000000;
+
+  border: none;
+}
+.light-container {
+  background-color: white;
+
+  border: 1px #000000 solid;
+}
+.styling {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.dark-title {
+  color: white;
+}
+.light-title {
+  color: black;
+}
+.button {
+  font-size: 15px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(209, 185, 185);
+  color: black;
+}
+.button-1 {
+  border: none;
+}
+.button-2 {
+  border: 1px #000000 olid;
+}
